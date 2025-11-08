@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f0f8;
+}
+
+h1 {
+  color: #ff4081;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  gap: 5px;
+}
+
+.candy {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.candy1 { background-color: #ff0000; } /* red */
+.candy2 { background-color: #00ff00; } /* green */
+.candy3 { background-color: #0000ff; } /* blue */
+.candy4 { background-color: #ffff00; } /* yellow */
+.candy5 { background-color: #ff00ff; } /* pink */
+.candy6 { background-color: #00ffff; } /* cyan */
